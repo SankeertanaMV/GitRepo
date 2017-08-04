@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/css" href = "FirstXMLFile.css"?>
+<BussinessCards>
+<BussinessCard>
+<Name>Joe Mainto</Name>
+<phone type ="mobile"> (209)381-9910</phone>
+<phone type ="work">(901)654-4432 </phone>
+<phone type ="fax"> (809)432-6654</phone>
+<email>joe@gmail.com </email>
+</BussinessCard>
+
+<BussinessCard>
+<Name>Whatever</Name>
+<phone type ="mobile"> (219)381-9910</phone>
+<phone type ="work">(911)654-4432 </phone>
+<phone type ="fax"> (819)432-6654</phone>
+<email>whatever@gmail.com </email>
+</BussinessCard>
+</BussinessCards>

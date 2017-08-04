@@ -1,0 +1,57 @@
+*concat function
+
+public String More ...concat(String str) {
+ int otherLen = str.length();
+ if (otherLen == 0) {
+ return this;
+  }
+ char buf[] = new char[count + otherLen];
+ getChars(0, count, buf, 0);
+str.getChars(0, otherLen, buf, count);
+return new String(0, count + otherLen, buf);
+ }
+ 
+ *to reverse a string
+ 
+ *equals()
+ 
+ public boolean More ...equals(Object anObject) {
+1013        if (this == anObject) {
+1014            return true;
+1015        }
+1016        if (anObject instanceof String) {
+1017            String anotherString = (String)anObject;
+1018            int n = count;
+1019            if (n == anotherString.count) {
+1020                char v1[] = value;
+1021                char v2[] = anotherString.value;
+1022                int i = offset;
+1023                int j = anotherString.offset;
+1024                while (n-- != 0) {
+1025                    if (v1[i++] != v2[j++])
+1026                        return false;
+1027                }
+1028                return true;
+1029            }
+1030        }
+1031        return false;
+1032    }
+ 
+ 
+ *hashcode
+ 
+  public int More ...hashCode() {
+1494        int h = hash;
+1495        if (h == 0) {
+1496            int off = offset;
+1497            char val[] = value;
+1498            int len = count;
+1499
+1500            for (int i = 0; i < len; i++) {
+1501                h = 31*h + val[off++];
+1502            }
+1503            hash = h;
+1504        }
+1505        return h;
+1506    }
+ 
